@@ -1,0 +1,8 @@
+# Batch 2: Google leftovers.
+# Source: 2024 Hisense 55U8N owner plus generic Google TV lists.
+
+android.autoinstalls.config.google.gtvpai  # Play auto-install stub (pushes sponsored apps back on)
+com.google.android.play.games              # Play Games
+com.google.android.feedback                # Feedback agent
+com.google.android.syncadapters.calendar   # Calendar sync
+com.google.android.videos                  # Google TV / Play Movies app (remove this line if you watch purchases)

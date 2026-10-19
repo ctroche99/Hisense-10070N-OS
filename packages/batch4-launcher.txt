@@ -1,0 +1,9 @@
+# Batch 4: stock Google TV home + its setup fallback. Highest ADB risk.
+# Only after Projectivy Launcher (com.spocky.projengmenu) is installed and its override works.
+# Both packages must be disabled together: on Hisense, setupwraith acts as a fallback
+# home and re-enables the launcher.
+# Known side effects on the U8N: gear key and YouTube/Disney+/Prime remote buttons stop
+# working, quick-settings panel disappears. Fix keys with the Button Mapper app.
+
+com.google.android.apps.tv.launcherx      # Stock Google TV home screen
+com.google.android.tungsten.setupwraith   # Setup wizard (acts as fallback home)

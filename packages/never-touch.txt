@@ -1,0 +1,63 @@
+# Packages the tool will REFUSE to disable, whatever list they appear in.
+# A line ending in * matches every package starting with that prefix.
+# Rule of thumb: if a package is Hisense (com.vt.*, com.hisense.*) or MediaTek and you
+# can't positively identify it, leave it alone.
+
+# Remote keys, wake and input events (related packages sent an older Hisense into Android Recovery)
+com.vt.tv.smartsense*
+com.vt.tv.aiot*
+com.hisense.tv.smartsense*
+
+# Picture, audio and DRM pipeline
+com.vt.tvservice
+com.vt.tvplayer
+com.vt.avmiddleware
+com.vt.tv.aipq
+com.vt.tv.videocolor
+com.vt.tv.calmanconnector
+com.vt.roomcalibration
+com.vt.edv.drmp
+com.dolby.*
+
+# Inputs, HDMI, CEC, tuner, Live TV
+com.vt.tv.input
+com.vt.source.external
+com.vt.source.tuner
+com.vt.tv.tvcenter
+com.android.providers.tv
+com.mediatek.*
+
+# Remote pairing, AirPlay and Cast
+com.google.android.tv.remote.service
+com.android.bluetooth
+com.google.android.apps.mediashell
+
+# Firmware updates (keep: blocks security and HDMI/gaming fixes)
+com.vt.tv.ota
+com.vt.remoteupgrade
+com.vt.tv.usbota
+
+# Android and Google core (fused location can cause a boot loop)
+com.google.android.gms*
+com.google.android.gsf*
+com.android.vending
+com.google.android.inputmethod.latin
+com.android.tv.settings
+com.android.systemui
+com.android.location.fused
+android
+com.android.providers.*
+
+# Hisense system packages with unidentified roles
+com.vt.eula
+com.vt.fte
+com.vt.factory
+com.vt.tv.commonui
+com.vt.tv.customerlauncher
+com.vt.tv.b2b
+com.vt.tv.smartservice
+com.vt.tv.dlna
+com.vt.tv.mediacenter
+
+# The replacement launcher itself
+com.spocky.projengmenu

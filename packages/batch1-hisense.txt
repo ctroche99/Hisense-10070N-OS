@@ -1,0 +1,15 @@
+# Batch 1: Hisense ads, ACR (viewing tracking) and clutter.
+# Source: 2024 Hisense 55U8N owner (same chip family as the 100U70N), all disabled
+# there with no reported breakage. Not yet tested on a 100U70N.
+# Turn off the ACR toggle in Settings > Privacy first (see docs/setup-checklist.md).
+# Delete or comment out (#) any line you want to keep.
+
+com.vt.tv.evservice              # Hisense ACR / content recognition (fingerprints what is on screen, HDMI too)
+net.vidaatv.hisense.android.tv   # Hisense Channels (ad-supported streaming channels)
+com.vidaa.oemtabcontentprovider  # "Hisense" tab feed in the Google TV home
+com.vt.hishow                    # Family Moment
+com.vt.tv.protector              # Device Assistant "cleaner"
+com.vt.storemode                 # Retail store demo mode
+com.vt.tv.ai_sense               # USB camera features (may not exist on your TV)
+com.vt.alexa                     # HiAlexa (remove this line if you use Alexa)
+com.hisense.odinbrowser          # Hi Browser

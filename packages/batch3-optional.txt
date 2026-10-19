@@ -1,0 +1,10 @@
+# Batch 3: optional removals that cost a feature or have conflicting safety ratings.
+# The tool only applies these ONE AT A TIME (--only <package>). Reboot and test between each.
+
+com.google.android.katniss               # Google app / Assistant: mic button and voice search STOP working
+com.google.android.apps.tv.dreamx        # Ambient Mode screensaver
+com.google.android.youtube.tvmusic       # YouTube Music
+com.android.printspooler                 # Print spooler (UAD-ng warns it can break a Settings menu)
+com.google.android.tvrecommendations     # Recommendation service (rated "Expert" by UAD-ng)
+com.google.android.onetimeinitializer    # Setup leftover (untested on Hisense)
+com.google.android.partnersetup          # Setup leftover (untested on Hisense)
